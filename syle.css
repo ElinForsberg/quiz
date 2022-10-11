@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#one, #two, #three, #endPage {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rightAnswer, .wrongAnswer {
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.nextQuestion, #startBtn, #goToEnd {
+    margin-top: 2rem;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+

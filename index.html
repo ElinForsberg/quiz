@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="syle.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header></header>
+    <main class="container">
+        <div id="startPage">
+            <h1>Välkommen till våran frågesport</h1>
+            <button id="startBtn">Start!</button>
+        </div>
+        <div class="question" id="one">
+            <h2>Vad heter vår klass?</h2>
+            <button class="answerBtn wrongAnswer">WIE23D</button>
+            <button class="answerBtn wrongAnswer">WIE22B</button>
+            <button class="answerBtn rightAnswer">WIE22D</button>
+            <button class="nextQuestion" id="nextOne">Nästa fråga</button>
+        </div>
+        <div class="question" id="two">
+            <h2>Vad heter våran lärare?</h2>
+            <button class="answerBtn wrongAnswer">Martin</button>
+            <button class="answerBtn rightAnswer">Fredrik</button>
+            <button class="answerBtn wrongAnswer">Jonas</button>
+            <button class="nextQuestion" id="nextTwo">Nästa fråga</button>
+        </div>
+        <div class="question" id="three">
+            <h2>Vad heter skolan?</h2>
+            <button class="answerBtn rightAnswer">Medieinstitutet</button>
+            <button class="answerBtn wrongAnswer">Mittuniversitet</button>
+            <button class="answerBtn wrongAnswer">Medieuniversitetet</button>
+            <button id="goToEnd">Klar!</button>
+        </div>
+        <div id="endPage">
+            <h1>Du är grym, bra jobbat!</h1>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>

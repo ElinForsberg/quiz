@@ -39,12 +39,12 @@ function startQuiz() {
 }
 
 function renderSuccessfulUI(e) {    //e är event som triggar. Target är just den man clickar på
-   e.target.style.backgroundColor = "green";
+   e.target.style.backgroundColor = "#003200";
     e.target.style.color = "white";
 }
 
 function renderFailUI(e) {
-    e.target.style.backgroundColor = "red";
+    e.target.style.backgroundColor = "#CE0505";
     e.target.style.color = "white";
 }
 
